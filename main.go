@@ -41,7 +41,7 @@ func main() {
 		f := createDirAndIndex(dir)
 		// Create the output file.
 
-		data := templates.BlogData{Post: post}
+		data := templates.BlogData{Post: post, Posts: posts}
 		// Use templ to render the template containing the raw HTML.
 		err = templates.ContentPage(data).Render(context.Background(), f)
 		if err != nil {
