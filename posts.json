@@ -1,0 +1,321 @@
+[
+
+    {
+        "date": "2025-07-20T00:00:00Z",
+        "Title": "Dag 1: Reis naar Kiel",
+        "Day": 1,
+        "HeaderImage": {
+            "Url": "/assets/images/dag_1/20220701_Stena_Germanica-29-9.jpeg",
+            "Title": "De boot",
+            "Alt": "De boot"
+        },
+        "Images": [
+            {
+                "Url": "/assets/images/dag_1/20220701_Stena_Germanica-29-9.jpeg",
+                "Title": "De boot",
+                "Alt": "De boot"
+            },
+            {
+                "Url": "/assets/images/dag_1/M-V-Stena_Line2-big.jpeg",
+                "Title": "De boot",
+                "Alt": "De boot in de haven"
+            }
+        ],
+        "Content": "## Het avontuur begint!\n\nVandaag vertrekken we naar Kiel. Het is een reis van ongeveer 5,5 uur naar de haven van Kiel waar we de boot naar Gøtenburg, Zweden.\n\nDe boot vertrekt om 17:45. We hebben een tafel in het restaurant gereserveerd aan het raam en een binnenhut om in te slapen."
+    },
+    {
+        "Date": "2025-07-21T00:00:00Z",
+        "Title": "Dag 2: Gøtenburg en Uddevalla",
+        "Day": 2,
+        "HeaderImage": {
+            "Url": "/assets/images/dag_2/5b8b0c3c-9c4f-4d9c-b2cd-5d1436470042.jpeg",
+            "Title": "Botenhuis bij het huisje",
+            "Alt": "Botenhuis bij het huisje"
+        },
+        "Content": "We worden wakker op de boot. Om 9:15 zullen we in Gøtenburg aankomen.\n\nWe kunnen pas om 15:00 in ons eerste huisje van deze reis dus we zullen de dag in Gøtenburg besteden voordat we de reis van 1 uur naar Uddevalla maken.\n\n[Ons huisje](https://www.airbnb.nl/rooms/22492525?photo_id=1689009824&source_impression_id=p3_1731830734_P3SHn03PPLP3ex8Y) ligt bij Uddevalla",
+        "Images": [
+
+            {
+                "Url": "/assets/images/dag_2/3e06e9a4-5099-4d30-bc35-b0d41e41b4c1.jpeg",
+                "Title": "Huiste in Uddavalla (foto van AirBnB)",
+                "Alt": "huisje in Uddevalla"
+            },
+            {
+                "Url": "/assets/images/dag_2/59e27f0d-e638-4854-a81f-179384f2529b.jpeg",
+                "Title": "Huiste in Uddavalla (foto van AirBnB)",
+                "Alt": "huisje in Uddevalla"
+            },
+            {
+                "Url": "/assets/images/dag_2/5b8b0c3c-9c4f-4d9c-b2cd-5d1436470042.jpeg",
+                "Title": "Huiste in Uddavalla (foto van AirBnB)",
+                "Alt": "huisje in Uddevalla"
+            },
+            {
+                "Url": "/assets/images/dag_2/8a50ebcf-ba96-40f4-abe8-8c4bc0f2cc2a.jpeg",
+                "Title": "Huiste in Uddavalla (foto van AirBnB)",
+                "Alt": "huisje in Uddevalla"
+            }
+        ]
+    },
+    {
+        "Date": "2025-07-25T00:00:00Z",
+        "Title": "Dag 6: Reis naar Nordre Land",
+        "Day": 6,
+        "HeaderImage": {
+            "Url": "/assets/images/nordre-land/a226a0fb-f8da-492a-ac65-c072815dc088.jpeg",
+            "Title": "Huisje in Uddavalla (foto van AirBnB)",
+            "Alt": "huisje in Uddevalla"
+        },
+        "Content": "## Vandaag reizen we naar Noorwegen.\n\nEr staat ons een reis voor de boeg van ongeveer 4:45 uur. Onze bestemming is Nordre Land, een klein gehucht ten westen van Lillehamer.",
+        "Images": [
+            {
+                "Url": "/assets/images/kaarten/uddevalla-nordre-land.png",
+                "Title": "De route van Uddevalla naar Nordre Land",
+                "Alt": "Uddevalla naar Nordre Land"
+            },
+            {
+                "Url": "/assets/images/nordre-land/4b092355-a8e6-43c2-a1e7-1fae8bae1a61.jpeg",
+                "Title": "Huisje in Uddavalla (foto van AirBnB)",
+                "Alt": "huisje in Uddevalla"
+            },
+            {
+                "Url": "/assets/images/nordre-land/475296af-69e9-4a25-a087-54c81d838ce8.jpeg",
+                "Title": "Huisje in Uddavalla (foto van AirBnB)",
+                "Alt": "huisje in Uddevalla"
+            },
+            {
+                "Url": "/assets/images/nordre-land/a226a0fb-f8da-492a-ac65-c072815dc088.jpeg",
+                "Title": "Huisje in Uddavalla (foto van AirBnB)",
+                "Alt": "huisje in Uddevalla"
+            },
+            {
+                "Url": "/assets/images/nordre-land/d721e633-3cce-418a-aab4-c23399718e96.jpeg",
+                "Title": "Huisje in Uddavalla (foto van AirBnB)",
+                "Alt": "huisje in Uddevalla"
+            }
+        ]
+    },
+    {
+        "Day": 9,
+        "Title": "Dag 9: Naar Hemsedal",
+        "Date": "2025-07-28T00:00:00Z",
+        "HeaderImage":    {
+            "Url": "/assets/images/hemsedal/fe4ff1de-0823-4c5e-a0d7-aa77227e7dcb.jpeg",
+            "Title": "Huisje in Hemsedal (foto van AirBnB)",
+            "Alt": "huisje in Hemsedal"
+        },
+        "Content": "Onze kortste route van deze reis, in bijna 2 uur rijden we van Nordre Land naar Hemsedal. We zullen voor onderweg nog iets leuks moeten vinden want we kunnen pas aan het einde van de middag in ons nieuwe huisje terecht. Dat zal vast gaan lukken!\n\nWe blijven twee nachten in Hemsedal voordat we doorrijden richting de fjorden.",
+        "Images": [
+            {
+                "Url": "/assets/images/kaarten/nordre-land-hemsedal.png",
+                "Title": "De route van Nordre Land naar Hemsedal",
+                "Alt": "Nordre Land naar Hemsedal"
+            },
+            {
+                "Url": "/assets/images/hemsedal/32d0195c-f40e-49cc-a8b9-e732990ec512.jpeg",
+                "Title": "Huisje in Hemsedal (foto van AirBnB)",
+                "Alt": "huisje in Hemsedal"
+            },
+            {
+                "Url": "/assets/images/hemsedal/75b81c0d-ed56-4dcc-8a2c-bf12d7557a1f.jpeg",
+                "Title": "Huisje in Hemsedal (foto van AirBnB)",
+                "Alt": "huisje in Hemsedal"
+            },
+            {
+                "Url": "/assets/images/hemsedal/7336db42-5218-4ad1-a4b3-7cdd9e66a8ae.jpeg",
+                "Title": "Huisje in Hemsedal (foto van AirBnB)",
+                "Alt": "huisje in Hemsedal"
+            },
+            {
+                "Url": "/assets/images/hemsedal/c1d62f36-18b5-49ca-9958-e0cc69ed2b23.jpeg",
+                "Title": "Huisje in Hemsedal (foto van AirBnB)",
+                "Alt": "huisje in Hemsedal"
+            },
+            {
+                "Url": "/assets/images/hemsedal/fe4ff1de-0823-4c5e-a0d7-aa77227e7dcb.jpeg",
+                "Title": "Huisje in Hemsedal (foto van AirBnB)",
+                "Alt": "huisje in Hemsedal"
+            }
+        ]
+    },
+    {
+        "Day": 11,
+        "Title": "Dag 11: Naar Eidfjord",
+        "Date": "2025-07-30T00:00:00Z",
+        "HeaderImage":    {
+            "Url": "/assets/images/eidfjord/30659af2-981a-410a-99b8-c7ccba693622.jpeg",
+            "Title": "Huisje in Eidfjord (foto van AirBnB)",
+            "Alt": "huisje in Eidfjord"
+        },
+        "Content": "Van Hemsedal naar Eidfjord is als je de zuidelijke route neemt ongeveer x uur rijden. Wij willen graag de Noordelijke route nemen vandaag. We gaan stoppen bij de staafkerk van Borgund. En nemen daarna een touristische route door de bergen en langs de fjorden. Totaal zou dit zo'n 4 uur rijden zijn maar we zullen vaak stil staan om foto's te nemen.\n\n Het huisje bij Eidfjord ligt net voorbij de Vøringfossen een van de mooiste watervallen van Noorwegen. Vanuit hier kunnen we het Hardangerfjord, de Hardangervidda, de Folgefonna gletsjer en nog veel meer bezoeken. We blijven hier een week.",
+        "Images": [
+            {
+                "Url": "/assets/images/kaarten/hemsedal-eidfjord.png",
+                "Title": "De route van Hemsedal naar Eidfjord",
+                "Alt": "Hemsedal naar Eidfjord"
+            },
+            {
+                "Url": "/assets/images/eidfjord/30659af2-981a-410a-99b8-c7ccba693622.jpeg",
+                "Title": "Huisje in Eidfjord (foto van AirBnB)",
+                "Alt": "huisje in Eidfjord"
+            },
+            {
+                "Url": "/assets/images/eidfjord/b4c2acc0-9b3b-4a48-acc4-3cf943886217.jpeg",
+                "Title": "Huisje in Eidfjord (foto van AirBnB)",
+                "Alt": "huisje in Eidfjord"
+            }
+        ]
+    },
+    {
+        "Day": 18,
+        "Title": "Dag 18: Naar Suldalsosen",
+        "Date": "2025-08-06T00:00:00Z",
+        "HeaderImage":    {
+            "Url": "/assets/images/suldalsosen/0d1aeb77-6778-4cc3-a5cb-49a528725f43.jpeg",
+            "Title": "Huisje in Suldalsosen (foto van AirBnB)",
+            "Alt": "huisje in Suldalsosen"
+        },
+        "Content": "3 uur rijden",
+        "Images": [
+            {
+                "Url": "/assets/images/kaarten/eidfjord-sundalsosen.png",
+                "Title": "De route van Eidfjord naar Sundalsosen",
+                "Alt": "Eidfjord naar Sundalsosen"
+            },
+            {
+                "Url": "/assets/images/suldalsosen/0d1aeb77-6778-4cc3-a5cb-49a528725f43.jpeg",
+                "Title": "Huisje in Suldalsosen (foto van AirBnB)",
+                "Alt": "huisje in Suldalsosen"
+            },
+            {
+                "Url": "/assets/images/suldalsosen/3b956537-b039-401f-b2a9-13442abef631.jpeg",
+                "Title": "Huisje in Suldalsosen (foto van AirBnB)",
+                "Alt": "huisje in Suldalsosen"
+            },
+            {
+                "Url": "/assets/images/suldalsosen/3e167ae3-a0d9-444e-8593-f28587e09138.jpeg",
+                "Title": "Huisje in Suldalsosen (foto van AirBnB)",
+                "Alt": "huisje in Suldalsosen"
+            },
+            {
+                "Url": "/assets/images/suldalsosen/41a184a4-15f3-4251-a9a4-90aad0984e0e.jpeg",
+                "Title": "Huisje in Suldalsosen (foto van AirBnB)",
+                "Alt": "huisje in Suldalsosen"
+            },
+            {
+                "Url": "/assets/images/suldalsosen/fddfbe2b-a7cc-4734-8622-d6e6a069154d.jpeg",
+                "Title": "Huisje in Suldalsosen (foto van AirBnB)",
+                "Alt": "huisje in Suldalsosen"
+            }
+        ]
+    },
+    {
+        "Day": 22,
+        "Title": "Dag 22: Naar Farsund",
+        "Date": "2025-08-10T00:00:00Z",
+        "HeaderImage":    {
+            "Url": "/assets/images/farsund/df14ef8d-d603-4b5f-9336-f8af1749d7ee.jpeg",
+                "Title": "Huisje in Farsund (foto van AirBnB)",
+                "Alt": "huisje in Farsund"
+            },
+        "Content": "5 uur rijden",
+        "Images": [
+            {
+                "Url": "/assets/images/kaarten/sundalsosen-farsund.png",
+                "Title": "De route van Sundalsosen naar Farsund",
+                "Alt": "Sundalsosen naar Farsund"
+            },
+            {
+                "Url": "/assets/images/farsund/d95d9cf1-4be3-4385-8bf8-0c9e1b1d66f2.jpeg",
+                "Title": "Huisje in Farsund (foto van AirBnB)",
+                "Alt": "huisje in Farsund"
+            },
+            {
+                "Url": "/assets/images/farsund/df14ef8d-d603-4b5f-9336-f8af1749d7ee.jpeg",
+                "Title": "Huisje in Farsund (foto van AirBnB)",
+                "Alt": "huisje in Farsund"
+            },
+            {
+                "Url": "/assets/images/farsund/f12a022f-3840-4691-b237-7184779aaa9c.jpeg",
+                "Title": "Huisje in Farsund (foto van AirBnB)",
+                "Alt": "huisje in Farsund"
+            },
+            {
+                "Url": "/assets/images/farsund/ff193729-90de-4a81-96d3-af12ebd511d7.jpeg",
+                "Title": "Huisje in Farsund (foto van AirBnB)",
+                "Alt": "huisje in Farsund"
+            }
+        ]
+    },
+    {
+        "Day": 26,
+        "Title": "Dag 26: Naar Ribe, Denemarken",
+        "Date": "2025-08-14T00:00:00Z",
+        "HeaderImage":    {
+            "Url": "/assets/images/ribe/4de7d770-b796-4257-b7d0-1d698f98b2ba.jpeg",
+            "Title": "Huisje in Ribe (foto van AirBnB)",
+            "Alt": "huisje in Ribe"
+        },
+        "Content": "## Vandaag nemen we afscheid van Noorwegen.\n\n We hebben we een lange reisdag voor de boeg. Gelukkig is niet alles autorijden. We moeten eerst in anderhalf uur naar Kristiansand waar om 9 uur de boot zal vertrekken. Om 11:30 zijn we in Denemarken en hebben we nog een autorit van bijna 4 uur naar Ribe voor de boeg. In Ribe verblijven we 2 nachten in een oude boerderij met een ruime tuin/boomgaard.",
+        "Images": [
+            {
+                "Url": "/assets/images/kaarten/farsund-ribe.png",
+                "Title": "De route van Farsund naar Ribe",
+                "Alt": "Farsund naar Ribe"
+            },
+            {
+                "Url": "/assets/images/ribe/52956318790_d79ab668ec_b.jpeg",
+                "Title": "De HSC Fjord FSTR, de katamaran die ons naar Denemarken brengt",
+                "Alt": "De HSC Fjord FSTR"
+            },
+            {
+                "Url": "/assets/images/ribe/fjord-fstr_9837339_3345549_Large.jpeg",
+                "Title": "De HSC Fjord FSTR, de katamaran die ons naar Denemarken brengt",
+                "Alt": "De HSC Fjord FSTR"
+            },
+            {
+                "Url": "/assets/images/ribe/4de7d770-b796-4257-b7d0-1d698f98b2ba.jpeg",
+                "Title": "Huisje in Ribe (foto van AirBnB)",
+                "Alt": "huisje in Ribe"
+            },
+            {
+                "Url": "/assets/images/ribe/6f2b83e4-ffc2-4965-afd7-9107c5b9eb72.jpeg",
+                "Title": "Huisje in Ribe (foto van AirBnB)",
+                "Alt": "huisje in Ribe"
+            },
+            {
+                "Url": "/assets/images/ribe/065fceea-1c25-4831-95cf-0f78185ed4d1.jpeg",
+                "Title": "Huisje in Ribe (foto van AirBnB)",
+                "Alt": "huisje in Ribe"
+            },
+            {
+                "Url": "/assets/images/ribe/daf25920-a1e8-427f-8f8d-d1a43f24c506.jpeg",
+                "Title": "Huisje in Ribe (foto van AirBnB)",
+                "Alt": "huisje in Ribe"
+            },
+            {
+                "Url": "/assets/images/hemsedal/fe4ff1de-0823-4c5e-a0d7-aa77227e7dcb.jpeg",
+                "Title": "Huisje in Hemsedal (foto van AirBnB)",
+                "Alt": "huisje in Hemsedal"
+            }
+        ]
+    },
+    {
+        "Day": 28,
+        "Title": "Dag 28: Naar huis",
+        "Date": "2025-08-16T00:00:00Z",
+        "HeaderImage": {
+            "Url": "/assets/images/kaarten/ribe-heerhugowaard.png",
+            "Title": "Route naar huis",
+            "Alt": "Route naar huis"
+        },
+        "Content": "We vullen dit later",
+        "Images": [
+            {
+                "Url": "/assets/images/kaarten/ribe-heerhugowaard.png",
+                "Title": "Route naar huis",
+                "Alt": "Route naar huis"
+            }
+        ]
+    }
+]

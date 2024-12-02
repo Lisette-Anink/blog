@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+
+    article h1 {
+        @apply text-2xl;
+    }
+    article h2 {
+        @apply text-xl;
+    }
+    article a {
+        @apply text-blue-600 hover:underline cursor-pointer
+    }
+  }
