@@ -7,9 +7,6 @@ type BlogData struct {
 	Posts []models.Post
 }
 
-var MapPath = "kaart"
-var AboutPath = "over-ons"
-
 templ blogHeaderComponent(data BlogData) {
 	<div class="relative w-full mx-auto mb-4">
 		<div class="absolute inset-0 text-white z-10  before:absolute before:inset-x-0 before:bottom-0 before:h-1/3 before:bg-gradient-to-t before:from-black/50 before:transition-opacity">
@@ -52,5 +49,84 @@ templ ContentPage(data BlogData) {
 	@Layout(data.Post.Title) {
 		@blogHeaderComponent(data)
 		@contentComponent(data)
+		@carousel(data)
 	}
+}
+
+templ carousel(data BlogData) {
+		<div class="relative w-full max-w-4xl mx-auto">
+			<!-- Carousel wrapper -->
+			<div class="overflow-hidden relative rounded-lg">
+				<div
+					class="flex transition-transform duration-500 ease-in-out transform"
+					id="carousel"
+				>
+				for _, image := range data.Post.Images {
+					<!-- Slide 1 -->
+					<div class="min-w-full">
+						<img
+							src={ image.Url }
+							alt={ image.Alt }
+							class="w-full h-full object-cover"
+						/>
+					</div>
+				}
+				</div>
+			</div>
+
+			<!-- Navigation buttons -->
+			<button
+				class="absolute top-1/2 left-0 transform -translate-y-1/2 p-3 bg-gray-700 bg-opacity-50 rounded-full text-white hover:bg-opacity-75 focus:outline-none"
+				onclick="scrollCarousel(-1)"
+			>
+				<svg
+					class="w-6 h-6"
+					fill="none"
+					stroke="currentColor"
+					viewBox="0 0 24 24"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						stroke-width="2"
+						d="M15 19l-7-7 7-7"
+					></path>
+				</svg>
+			</button>
+			<button
+				class="absolute top-1/2 right-0 transform -translate-y-1/2 p-3 bg-gray-700 bg-opacity-50 rounded-full text-white hover:bg-opacity-75 focus:outline-none"
+				onclick="scrollCarousel(1)"
+			>
+				<svg
+					class="w-6 h-6"
+					fill="none"
+					stroke="currentColor"
+					viewBox="0 0 24 24"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						stroke-width="2"
+						d="M9 5l7 7-7 7"
+					></path>
+				</svg>
+			</button>
+		</div>
+
+		<script>
+			let currentIndex = 0;
+
+			function scrollCarousel(direction) {
+				const carousel = document.getElementById("carousel");
+				const totalSlides = carousel.children.length;
+				currentIndex =
+					(currentIndex + direction + totalSlides) % totalSlides;
+				carousel.style.transform = `translateX(-${
+					currentIndex * 100
+				}%)`;
+			}
+		</script>
+
 }
