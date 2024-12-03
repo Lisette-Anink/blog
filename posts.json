@@ -2,7 +2,7 @@
 
     {
         "date": "2025-07-20T00:00:00Z",
-        "Title": "Dag 1: Reis naar Kiel",
+        "Title": "Reis naar Kiel",
         "Day": 1,
         "HeaderImage": {
             "Url": "/assets/images/dag_1/20220701_Stena_Germanica-29-9.jpeg",
@@ -25,7 +25,7 @@
     },
     {
         "Date": "2025-07-21T00:00:00Z",
-        "Title": "Dag 2: Gøtenburg en Uddevalla",
+        "Title": "Gøtenburg en Uddevalla",
         "Day": 2,
         "HeaderImage": {
             "Url": "/assets/images/dag_2/5b8b0c3c-9c4f-4d9c-b2cd-5d1436470042.jpeg",
@@ -59,7 +59,7 @@
     },
     {
         "Date": "2025-07-25T00:00:00Z",
-        "Title": "Dag 6: Reis naar Nordre Land",
+        "Title": "Reis naar Nordre Land",
         "Day": 6,
         "HeaderImage": {
             "Url": "/assets/images/nordre-land/a226a0fb-f8da-492a-ac65-c072815dc088.jpeg",
@@ -97,7 +97,7 @@
     },
     {
         "Day": 9,
-        "Title": "Dag 9: Naar Hemsedal",
+        "Title": "Naar Hemsedal",
         "Date": "2025-07-28T00:00:00Z",
         "HeaderImage":    {
             "Url": "/assets/images/hemsedal/fe4ff1de-0823-4c5e-a0d7-aa77227e7dcb.jpeg",
@@ -140,7 +140,7 @@
     },
     {
         "Day": 11,
-        "Title": "Dag 11: Naar Eidfjord",
+        "Title": "Naar Eidfjord",
         "Date": "2025-07-30T00:00:00Z",
         "HeaderImage":    {
             "Url": "/assets/images/eidfjord/30659af2-981a-410a-99b8-c7ccba693622.jpeg",
@@ -168,7 +168,7 @@
     },
     {
         "Day": 18,
-        "Title": "Dag 18: Naar Suldalsosen",
+        "Title": "Naar Suldalsosen",
         "Date": "2025-08-06T00:00:00Z",
         "HeaderImage":    {
             "Url": "/assets/images/suldalsosen/0d1aeb77-6778-4cc3-a5cb-49a528725f43.jpeg",
@@ -211,7 +211,7 @@
     },
     {
         "Day": 22,
-        "Title": "Dag 22: Naar Farsund",
+        "Title": "Naar Farsund",
         "Date": "2025-08-10T00:00:00Z",
         "HeaderImage":    {
             "Url": "/assets/images/farsund/df14ef8d-d603-4b5f-9336-f8af1749d7ee.jpeg",
@@ -249,7 +249,7 @@
     },
     {
         "Day": 26,
-        "Title": "Dag 26: Naar Ribe, Denemarken",
+        "Title": "Naar Ribe, Denemarken",
         "Date": "2025-08-14T00:00:00Z",
         "HeaderImage":    {
             "Url": "/assets/images/ribe/4de7d770-b796-4257-b7d0-1d698f98b2ba.jpeg",
@@ -292,17 +292,12 @@
                 "Url": "/assets/images/ribe/daf25920-a1e8-427f-8f8d-d1a43f24c506.jpeg",
                 "Title": "Huisje in Ribe (foto van AirBnB)",
                 "Alt": "huisje in Ribe"
-            },
-            {
-                "Url": "/assets/images/hemsedal/fe4ff1de-0823-4c5e-a0d7-aa77227e7dcb.jpeg",
-                "Title": "Huisje in Hemsedal (foto van AirBnB)",
-                "Alt": "huisje in Hemsedal"
             }
         ]
     },
     {
         "Day": 28,
-        "Title": "Dag 28: Naar huis",
+        "Title": "Naar huis",
         "Date": "2025-08-16T00:00:00Z",
         "HeaderImage": {
             "Url": "/assets/images/kaarten/ribe-heerhugowaard.png",
