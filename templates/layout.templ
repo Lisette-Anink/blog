@@ -9,6 +9,10 @@ templ Layout(title string) {
 			<meta charset="UTF-8"/>
 			<title>{ title }</title>
 			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+			<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
+			<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
+			<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+			<link rel="manifest" href="/site.webmanifest"/>
 			<link href="/assets/output.css" rel="stylesheet"/>
 			<script src="https://unpkg.com/hyperscript.org@0.9.13"></script>
 			<link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -25,18 +29,18 @@ templ Layout(title string) {
 }
 
 templ menu() {
-	<header class="bg-white">
-		<nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+	<header class="bg-green-600">
+		<nav class="mx-auto flex max-w-7xl h-20 items-center justify-between p-6 lg:px-8" aria-label="Global">
 			<div class="flex lg:flex-1">
-				<a href="/" class="-m-1.5 p-1.5">
+				<a href="/" class="p-1.5">
 					<span class="sr-only">Home</span>
-					<img class="h-8 w-auto" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600" alt=""/>
+					<img class="mt-2.5 h-4/5" src="/assets/images/logo_horizontal.svg"/>
 				</a>
 			</div>
 			<div class="flex lg:hidden">
 				<button
 					type="button"
-					class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+					class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-green-800"
 					_="on click toggle .hidden on #mobile-menu"
 				>
 					<span class="sr-only">Open main menu</span>
@@ -46,23 +50,23 @@ templ menu() {
 				</button>
 			</div>
 			<div class="hidden lg:flex lg:gap-x-12">
-				<a class="text-sm/6 font-semibold text-gray-900" href={ templ.SafeURL(fmt.Sprintf("/%s", MapPath)) }>Op de kaart</a>
-				<a class="text-sm/6 font-semibold text-gray-900" href={ templ.SafeURL(fmt.Sprintf("/%s", AboutPath)) }>Over ons</a>
+				<a class="text-sm/6 font-semibold text-green-900" href={ templ.SafeURL(fmt.Sprintf("/%s", MapPath)) }>Op de kaart</a>
+				<a class="text-sm/6 font-semibold text-green-900" href={ templ.SafeURL(fmt.Sprintf("/%s", AboutPath)) }>Over ons</a>
 			</div>
 		</nav>
 		<!-- Mobile menu, show/hide based on menu open state. -->
 		<div id="mobile-menu" class="hidden lg:hidden" role="dialog" aria-modal="true">
 			<!-- Background backdrop, show/hide based on slide-over state. -->
 			<div class="fixed inset-0 z-30"></div>
-			<div class="fixed inset-y-0 right-0 z-30 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-				<div class="flex items-center justify-between">
+			<div class="fixed inset-y-0 right-0 z-30 w-full overflow-y-auto  bg-green-600 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-green-900/10">
+				<div class="h-20 flex items-center justify-between">
 					<a href="#" class="-m-1.5 p-1.5">
 						<span class="sr-only">Onze blog</span>
-						<img class="h-8 w-auto" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600" alt=""/>
+						<img class="mt-2.5 h-4/5" src="/assets/images/logo_horizontal.svg"/>
 					</a>
 					<button
 						type="button"
-						class="-m-2.5 rounded-md p-2.5 text-gray-700"
+						class="-m-2.5 rounded-md p-2.5 text-green-700"
 						_="on click toggle .hidden on #mobile-menu"
 					>
 						<span class="sr-only">Close menu</span>
@@ -72,10 +76,10 @@ templ menu() {
 					</button>
 				</div>
 				<div class="mt-6 flow-root">
-					<div class="-my-6 divide-y divide-gray-500/10">
+					<div class="-my-6 divide-y divide-green-500/10">
 						<div class="space-y-2 py-6">
-							<a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" href={ templ.SafeURL(fmt.Sprintf("/%s", MapPath)) }>Op de kaart</a>
-							<a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" href={ templ.SafeURL(fmt.Sprintf("/%s", AboutPath)) }>Over ons</a>
+							<a class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-green-900 hover:bg-green-50" href={ templ.SafeURL(fmt.Sprintf("/%s", MapPath)) }>Op de kaart</a>
+							<a class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-green-900 hover:bg-green-50" href={ templ.SafeURL(fmt.Sprintf("/%s", AboutPath)) }>Over ons</a>
 						</div>
 					</div>
 				</div>

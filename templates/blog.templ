@@ -49,7 +49,6 @@ templ ContentPage(data BlogData) {
 	@Layout(data.Post.Title) {
 		@blogHeaderComponent(data)
 		@contentComponent(data)
-		@carousel(data)
 		@modal(data)
 	}
 }
@@ -69,9 +68,7 @@ templ modal(data BlogData) {
 						</button>
 					</div>
 					<div>
-						for _, image := range data.Post.Images {
-							<img class="w-full h-full object-cover rounded-xl shadow" src={ image.Url } alt={ image.Alt }/>
-						}
+						@carousel(data)
 					</div>
 				</div>
 			</div>
