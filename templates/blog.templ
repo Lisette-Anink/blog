@@ -3,12 +3,15 @@ package templates
 import (
 	"blog/models"
 	"fmt"
+	"path"
 	"strconv"
 )
 
 type BlogData struct {
-	Post  models.Post
-	Posts []models.Post
+	Post     models.Post
+	Posts    []models.Post
+	Next     *models.Post
+	Previous *models.Post
 }
 
 templ blogHeaderComponent(data BlogData) {
@@ -25,6 +28,7 @@ templ blogHeaderComponent(data BlogData) {
 
 templ contentComponent(data BlogData) {
 	<div class="max-w-6xl mx-6 xl:mx-auto mb-24">
+		@nextPrevButtons(data)
 		<div class="columns-2 md:columns-3 gap-4 space-y-4">
 			<article>
 				@templ.Raw(data.Post.HTML())
@@ -34,6 +38,37 @@ templ contentComponent(data BlogData) {
 			}
 		</div>
 	</div>
+}
+
+templ nextPrevButtons(data BlogData) {
+	<nav class="flex mb-2 -mt-2">
+		<ol role="list" class="flex items-center space-x-4 w-full justify-between">
+			<li>
+				<div class="flex items-center">
+					if data.Previous != nil {
+						<a href={ templ.SafeURL(path.Join("/", data.Previous.Slug(), "/")) } class="inline-flex items-center  py-2 pr-4 pl-3 rounded-xl border border-1 border-green-600 text-sm font-medium text-green-600 hover:text-white hover:bg-green-600" aria-current="page">
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-4 shrink-0 text-green-600">
+								<path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5"></path>
+							</svg>
+							<span class="ml-4">Vorige</span>
+						</a>
+					}
+				</div>
+			</li>
+			<li>
+				<div class="flex items-center">
+					if data.Next != nil {
+						<a href={ templ.SafeURL(path.Join("/", data.Next.Slug(), "/")) } class="inline-flex items-center py-2 pl-4 pr-3 rounded-xl border border-1 border-green-600 text-sm font-medium text-green-600 hover:text-white hover:bg-green-600" aria-current="page">
+							<span class="mr-4">Volgende</span>
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-4 shrink-0 text-green-600">
+								<path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"></path>
+							</svg>
+						</a>
+					}
+				</div>
+			</li>
+		</ol>
+	</nav>
 }
 
 templ ImageWithTitle(image models.Image, index int) {

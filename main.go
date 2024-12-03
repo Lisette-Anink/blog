@@ -11,6 +11,9 @@ import (
 	"github.com/a-h/templ"
 )
 
+var prevPost *models.Post
+var nextPost *models.Post
+
 func main() {
 	posts := models.GetJsonPosts()
 	// Output path.
@@ -33,19 +36,24 @@ func main() {
 	// Create the Static pages
 	addStatic(rootPath, templates.MapPath, templates.MapPage())
 	addStatic(rootPath, templates.AboutPath, templates.AboutPage())
-
 	// Create a page for each post.
-	for _, post := range posts {
+	for i, post := range posts {
+		if len(posts) > i+1 {
+			nextPost = &posts[i+1]
+		} else {
+			nextPost = nil
+		}
 		// Create the output directory.
 		dir := path.Join(rootPath, post.Slug())
 		f := createDirAndIndex(dir)
 		// Create the output file.
 
-		data := templates.BlogData{Post: post, Posts: posts}
+		data := templates.BlogData{Post: post, Posts: posts, Next: nextPost, Previous: prevPost}
 		err = templates.ContentPage(data).Render(context.Background(), f)
 		if err != nil {
 			log.Fatalf("failed to write output file: %v", err)
 		}
+		prevPost = &post
 	}
 }
 

@@ -30,7 +30,10 @@ type Image struct {
 	Title string
 }
 
-func (post Post) Slug() string {
+func (post *Post) Slug() string {
+	if post == nil {
+		return "#"
+	}
 	return path.Join("dag", strconv.Itoa(post.Day), slug.Make(post.Title))
 }
 
